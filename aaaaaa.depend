@@ -1,0 +1,71 @@
+# depslib dependency file v1.0
+1684331928 source:c:\users\petrisor\desktop\aaaaaa\glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<winapifamily.h>
+	<dlfcn.h>
+
+1684345750 source:c:\users\petrisor\desktop\aaaaaa\main.cpp
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<vector>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	"model.h"
+	"mesh.h"
+	"obiect.h"
+	"scena.h"
+	"stb/stb_image.h"
+
+1684331941 c:\users\petrisor\desktop\aaaaaa\model.h
+	<glad/glad.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<stb/stb_image.h>
+	<assimp/Importer.hpp>
+	<assimp/scene.h>
+	<assimp/postprocess.h>
+	"mesh.h"
+	<string>
+	<fstream>
+	<sstream>
+	<iostream>
+	<map>
+	<vector>
+
+1684331939 c:\users\petrisor\desktop\aaaaaa\mesh.h
+	<glad/glad.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<string>
+	<vector>
+
+1684331942 c:\users\petrisor\desktop\aaaaaa\obiect.h
+	"model.h"
+	<iostream>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+
+1684331944 c:\users\petrisor\desktop\aaaaaa\scena.h
+	"obiect.h"
+	<iostream>
+
+1684331932 source:c:\users\petrisor\desktop\aaaaaa\mesh.cpp
+	"mesh.h"
+
+1684331934 source:c:\users\petrisor\desktop\aaaaaa\model.cpp
+	"model.h"
+
+1684331937 source:c:\users\petrisor\desktop\aaaaaa\obiect.cpp
+	"obiect.h"
+
+1684331936 source:c:\users\petrisor\desktop\aaaaaa\scena.cpp
+	"scena.h"
+

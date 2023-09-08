@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="aaaaaa" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/aaaaaa" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/aaaaaa" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="../Cabin-in-the-forest-main/obiect1.frag" />
+		<Unit filename="../Cabin-in-the-forest-main/obiect1.vert" />
+		<Unit filename="glad.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.cpp" />
+		<Unit filename="mesh.cpp" />
+		<Unit filename="mesh.h" />
+		<Unit filename="model.cpp" />
+		<Unit filename="model.h" />
+		<Unit filename="obiect.cpp" />
+		<Unit filename="obiect.h" />
+		<Unit filename="resurse/barza/12244_Bird_diff.jpg" />
+		<Unit filename="resurse/barza/12244_Bird_v1_L2.mtl" />
+		<Unit filename="resurse/barza/12244_Bird_v1_L2.obj" />
+		<Unit filename="resurse/bic/11717_bicycle_v2_L1.mtl" />
+		<Unit filename="resurse/bic/11717_bicycle_v2_L1.obj" />
+		<Unit filename="resurse/bic/bicycle_bitmap_v2.jpg" />
+		<Unit filename="resurse/broasca/12268_banjofrog_diffuse.jpg" />
+		<Unit filename="resurse/broasca/12268_banjofrog_v1_L3.mtl" />
+		<Unit filename="resurse/broasca/12268_banjofrog_v1_L3.obj" />
+		<Unit filename="resurse/capra/12961_White-TailedDeer_diffuse.jpg" />
+		<Unit filename="resurse/capra/12961_White-Tailed_Deer_v1_l2.mtl" />
+		<Unit filename="resurse/capra/12961_White-Tailed_Deer_v1_l2.obj" />
+		<Unit filename="resurse/cat/12221_Cat_v1_l3.mtl" />
+		<Unit filename="resurse/cat/12221_Cat_v1_l3.obj" />
+		<Unit filename="resurse/cat/Cat_bump.jpg" />
+		<Unit filename="resurse/cat/Cat_diffuse.jpg" />
+		<Unit filename="resurse/cottage/152.jpg" />
+		<Unit filename="resurse/cottage/314.jpg" />
+		<Unit filename="resurse/cottage/5.max" />
+		<Unit filename="resurse/cottage/CLOUD2.JPG" />
+		<Unit filename="resurse/cottage/Cottage_Clean_AO.png" />
+		<Unit filename="resurse/cottage/Cottage_Clean_Base_Color.png" />
+		<Unit filename="resurse/cottage/Cottage_Clean_Height.png" />
+		<Unit filename="resurse/cottage/Cottage_Clean_Metallic.png" />
+		<Unit filename="resurse/cottage/Cottage_Clean_MetallicSmoothness.png" />
+		<Unit filename="resurse/cottage/Cottage_Clean_Normal.png" />
+		<Unit filename="resurse/cottage/Cottage_Clean_Opacity.png" />
+		<Unit filename="resurse/cottage/Cottage_Clean_Roughness.png" />
+		<Unit filename="resurse/cottage/Cottage_Dirt_AO.png" />
+		<Unit filename="resurse/cottage/Cottage_Dirt_Base_Color.png" />
+		<Unit filename="resurse/cottage/Cottage_Dirt_Height.png" />
+		<Unit filename="resurse/cottage/Cottage_Dirt_Metallic.png" />
+		<Unit filename="resurse/cottage/Cottage_Dirt_MetallicSmoothness.png" />
+		<Unit filename="resurse/cottage/Cottage_Dirt_Normal.png" />
+		<Unit filename="resurse/cottage/Cottage_Dirt_Opacity.png" />
+		<Unit filename="resurse/cottage/Cottage_Dirt_Roughness.png" />
+		<Unit filename="resurse/cottage/Cottage_FREE.3DS" />
+		<Unit filename="resurse/cottage/Cottage_FREE.blend" />
+		<Unit filename="resurse/cottage/Cottage_FREE.c4d" />
+		<Unit filename="resurse/cottage/Cottage_FREE.dae" />
+		<Unit filename="resurse/cottage/Cottage_FREE.fbx" />
+		<Unit filename="resurse/cottage/Cottage_FREE.max" />
+		<Unit filename="resurse/cottage/Cottage_FREE.mtl" />
+		<Unit filename="resurse/cottage/Cottage_FREE.stl" />
+		<Unit filename="resurse/cottage/Cottage_FREE.unitypackage" />
+		<Unit filename="resurse/cottage/Dirt_Base_Color.png" />
+		<Unit filename="resurse/cottage/Dirt_Metallic.png" />
+		<Unit filename="resurse/cottage/Dirt_Roughness.png" />
+		<Unit filename="resurse/cottage/README.pdf" />
+		<Unit filename="resurse/cottage/house.obj" />
+		<Unit filename="resurse/cottage/museumplein_4k.hdr" />
+		<Unit filename="resurse/cottage/pasare" />
+		<Unit filename="resurse/dog/13463_Australian_Cattle_Dog_v3.mtl" />
+		<Unit filename="resurse/dog/13463_Australian_Cattle_Dog_v3.obj" />
+		<Unit filename="resurse/dog/13466_Canaan_Dog_diff.jpg" />
+		<Unit filename="resurse/dog/13466_Canaan_Dog_v1_L3.mtl" />
+		<Unit filename="resurse/dog/13466_Canaan_Dog_v1_L3.obj" />
+		<Unit filename="resurse/dog/Australian_Cattle_Dog_bump.jpg" />
+		<Unit filename="resurse/dog/Australian_Cattle_Dog_dif.jpg" />
+		<Unit filename="resurse/duck/12248_Bird_v1_L2.mtl" />
+		<Unit filename="resurse/duck/12248_Bird_v1_L2.obj" />
+		<Unit filename="resurse/duck/12248_Bird_v1_diff.jpg" />
+		<Unit filename="resurse/fire1/Campfire.mtl" />
+		<Unit filename="resurse/fire1/Campfire.obj" />
+		<Unit filename="resurse/fire1/Thumbs.db" />
+		<Unit filename="resurse/fire1/camp_diffuse.jpg" />
+		<Unit filename="resurse/fire1/camp_normal.jpg" />
+		<Unit filename="resurse/fire1/camp_specular.jpg" />
+		<Unit filename="resurse/fire1/rocks_diffuse.jpg" />
+		<Unit filename="resurse/fire1/rocks_normal.jpg" />
+		<Unit filename="resurse/fire1/rocks_specular.jpg" />
+		<Unit filename="resurse/fire1/utensilrope_diffuse.jpg" />
+		<Unit filename="resurse/fire1/utensilrope_normal.jpg" />
+		<Unit filename="resurse/fire1/utensilrope_specular.jpg" />
+		<Unit filename="resurse/fire1/woodsground_diffuse.jpg" />
+		<Unit filename="resurse/fire1/woodsground_glow.jpg" />
+		<Unit filename="resurse/fire1/woodsground_normal.jpg" />
+		<Unit filename="resurse/fire1/woodsground_specular.jpg" />
+		<Unit filename="resurse/flower/1.c4d" />
+		<Unit filename="resurse/flower/1.mtl" />
+		<Unit filename="resurse/flower/1.obj" />
+		<Unit filename="resurse/flower/12978_tulip_flower_l3.mtl" />
+		<Unit filename="resurse/flower/12978_tulip_flower_l3.obj" />
+		<Unit filename="resurse/flower/12978_tulip_flower_leaf_Diffuse.jpg" />
+		<Unit filename="resurse/flower/12978_tulip_flower_petal_Diffuse.jpg" />
+		<Unit filename="resurse/flower/12978_tulip_flower_stalk_Diffuse.jpg" />
+		<Unit filename="resurse/flower/3d66Model-552361-files-12.jpg" />
+		<Unit filename="resurse/flower/3d66Model-552361-files-2.jpg" />
+		<Unit filename="resurse/flower/3d66Model-552361-files-4.jpg" />
+		<Unit filename="resurse/flower/3d66Model-552361-files-6.jpg" />
+		<Unit filename="resurse/flower/3d66Model-552361-files-9.jpg" />
+		<Unit filename="resurse/grass/10450_Rectangular_Grass_Patch_v1_Diffuse.jpg" />
+		<Unit filename="resurse/grass/10450_Rectangular_Grass_Patch_v1_iterations-2.mtl" />
+		<Unit filename="resurse/grass/10450_Rectangular_Grass_Patch_v1_iterations-2.obj" />
+		<Unit filename="resurse/grass/grass.PNG" />
+		<Unit filename="resurse/horse/10026_Horse_v01-it2.mtl" />
+		<Unit filename="resurse/horse/10026_Horse_v01-it2.obj" />
+		<Unit filename="resurse/horse/Horse_v01.jpg" />
+		<Unit filename="resurse/minge/10480_Archery_target_v1_Diffuse.jpg" />
+		<Unit filename="resurse/minge/10480_Archery_target_v1_max2011_iteration-2.mtl" />
+		<Unit filename="resurse/minge/10480_Archery_target_v1_max2011_iteration-2.obj" />
+		<Unit filename="resurse/minge/10483_baseball_diffuse.jpg" />
+		<Unit filename="resurse/minge/10483_baseball_v1_L3.mtl" />
+		<Unit filename="resurse/minge/10483_baseball_v1_L3.obj" />
+		<Unit filename="resurse/pasare/12213_Bird_v1_l3.mtl" />
+		<Unit filename="resurse/pasare/12213_Bird_v1_l3.obj" />
+		<Unit filename="resurse/pasare/12213_bird_diffuse.jpg" />
+		<Unit filename="resurse/pasare/Map__7_Normal Bump.jpg" />
+		<Unit filename="resurse/pine/Branches0018_1_S.png" />
+		<Unit filename="resurse/pine/Tree2.mtl" />
+		<Unit filename="resurse/pine/Tree2.obj" />
+		<Unit filename="resurse/pine/TreeR1.png" />
+		<Unit filename="resurse/pine/TreeR2.png" />
+		<Unit filename="resurse/sakura/Can Diffuse.jpg" />
+		<Unit filename="resurse/sakura/Can Normal.jpg" />
+		<Unit filename="resurse/sakura/Can Specular.jpg" />
+		<Unit filename="resurse/sakura/Can.mtl" />
+		<Unit filename="resurse/sakura/Can.obj" />
+		<Unit filename="resurse/swing/1.jpg" />
+		<Unit filename="resurse/swing/2.jpg" />
+		<Unit filename="resurse/swing/3.jpg" />
+		<Unit filename="resurse/swing/3ds.3ds" />
+		<Unit filename="resurse/swing/4.jpg" />
+		<Unit filename="resurse/swing/5.jpg" />
+		<Unit filename="resurse/swing/Obj.mtl" />
+		<Unit filename="resurse/swing/Obj.obj" />
+		<Unit filename="resurse/tree1/DB2X2_L01.png" />
+		<Unit filename="resurse/tree1/DB2X2_L02.png" />
+		<Unit filename="resurse/tree1/DB2X2_L02_NRM.png" />
+		<Unit filename="resurse/tree1/Render.jpeg" />
+		<Unit filename="resurse/tree1/Tree.mtl" />
+		<Unit filename="resurse/tree1/Tree.obj" />
+		<Unit filename="resurse/tree1/bark_0004.jpg" />
+		<Unit filename="resurse/urs/11706_stuffed_animal_L2.mtl" />
+		<Unit filename="resurse/urs/11706_stuffed_animal_L2.obj" />
+		<Unit filename="resurse/urs/11706_toy_dog_diffuse_v2.jpg" />
+		<Unit filename="resurse/wood/Wood.mtl" />
+		<Unit filename="resurse/wood/Wood.obj" />
+		<Unit filename="resurse/wood/WoodTexture.png" />
+		<Unit filename="resurse/wood/wood1.mtl" />
+		<Unit filename="resurse/wood/wood1.obj" />
+		<Unit filename="scena.cpp" />
+		<Unit filename="scena.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
